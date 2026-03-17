@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的一段话</title>
+    <style>
+    #special { 
+        color:rgba(0, 0, 255, 0.787) ;
+        text-align:center;
+    }
+    </style>
+
+</head>  
+<body>
+  <p><b>欢迎点击我！</b></p>
+  <p>接下来展示我新学到的</p>
+  <h1>变个颜色！</h1>
+  <p id="special"> 当当！</p>
+  <h2>插个图片！</h2>
+  <p>
+    一只吉伊
+    <img src="微信图片_20250928221555_21_2.jpg">
+  </p>
+
+
+</body>
+</html>
