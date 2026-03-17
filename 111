@@ -7,6 +7,17 @@
         color:rgba(0, 0, 255, 0.787) ;
         text-align:center;
     }
+    button {
+     background:#007bff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+    }
+    button:hover{
+        background:#0056b3;
+    }
     </style>
 
 </head>  
@@ -20,6 +31,13 @@
     一只吉伊
     <img src="微信图片_20250928221555_21_2.jpg">
   </p>
+  <h1>按钮和输入</h1>
+  <input type="text" placeholder="用户名">
+  <br><br>
+  <input type="password"  placeholder="密码">
+  <br>
+  <button type="submit">注册</button>
+
 
 
 </body>
