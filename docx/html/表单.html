@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!Bluemsun | 加入我们</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+     *
+    {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+   body
+    {
+        overflow-x: hidden;
+        background-color:white;
+        background-image: 
+        linear-gradient(to right, #ddd 1px, transparent 1px),
+        linear-gradient(to bottom, #ddd 1px, transparent 1px);
+        background-size: 35px 35px;
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+    /* 头部区域 */
+    .header
+    {
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 40px;
+        padding: 16px;
+        background-repeat: no-repeat;
+
+    }
+    .header img
+    {   margin-left: 5px;
+        width: 200px;
+        height: 68px;
+        margin-right: 250px;
+        padding-bottom: 0;
+    }
+    .header .nav
+    {
+        max-width: 100%;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+       padding-right: 14px;
+
+    }
+    .header .nav a
+    {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 15px;
+        padding: 14px;
+        margin-top: 13px;
+        white-space: nowrap; /* 强行不让自动换行 */
+
+    }
+    .header .nav a:hover
+    {
+        opacity: 0.6;
+        color:#666;
+        transition: 0.3s;
+        
+    }
+    /* 内容 */
+ 
+    
+    /* 文字区域 */
+    .text
+    {
+        width: 75%;
+        /* height: 200px; */
+        margin: 0 auto;
+       
+    }
+/* 表单区域 */
+.form{
+    
+    width: 75%;
+    margin-top: 20px;
+    /* background-color: rgb(255, 255, 255); */
+}
+.container1{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+}
+.container{
+    width: 75%;
+    margin: 20px auto;
+    margin-top: 38px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 60px;
+    gap: 25px;
+}
+.container3{
+    width: 75%;
+    margin: 20px auto;
+    margin-top: 38px;
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: space-between; */
+    height: 150px;
+    /* gap: 25px; */
+
+}
+.container label{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+     background-color: #e5e7eb;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     width: 30%;
+}
+.container input{
+    flex:1;
+    font-size: 16px;
+    font-weight: 100;
+    width: 100%;
+    height: 90%;
+    background-color: #e5e7eb;
+    border: none;
+    padding-left: 10px;
+}
+.container select{
+    flex:1;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    height: 90%;
+    background-color: #e5e7eb;
+    border: none;
+    padding-left: 10px;
+}
+input:focus,select:focus,textarea:focus{
+    border: 1px solid rgb(55 65 81);
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom:2.5px solid rgb(55 65 81);
+}
+
+textarea{
+    flex:1;
+    font-size: 14px;
+    font-weight: 200;
+    width: 100%;
+    height: 80%;
+    background-color: #e5e7eb;
+    color: rgb(135, 161, 203);
+    border: none;
+    padding-left: 10px;
+    padding-top: 20px;
+    resize: none;
+}
+/* 按钮 */
+
+  button{
+    display:block;
+   background-color: rgb(31 41 55);
+   width: 80px;
+   height: 30px;
+   border: none;
+   font-size: 16px;
+   margin:20px 150px 70px 150px;
+   color: rgb(255, 255, 255);
+   font-weight: 300;
+   font-size: 13px;
+    }
+    button:hover{
+        background-color:#9CA3AF;
+        color: rgb(255, 255, 255);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    /* 页脚 */
+    .footer
+    {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(31 41 55);
+        display: flex;
+        align-items: center;
+    }
+    .pc{
+      flex:left;
+
+    }
+    .name{
+        flex:left;
+        padding:0;    
+    
+    }
+    .git{
+        margin-left: auto;
+        margin-right: 50px;
+    }
+    .footer2
+    {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(55 65 81 );
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer2 span{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        font-weight: 300;
+    }
+</style>
+<body>
+     <!-- 头部区域 -->
+    <div class="header">
+        <a href="#">
+        <img src="../图片/logo.png" alt=""></img>
+        </a>
+        <div class="nav">
+            <a href="./源代码.html"><strong>🏠返回主页</strong></a>
+            <a href="#"><strong>💻项目介绍</strong></a>
+            <a href="#"><strong>📄往期博客</strong></a>
+            <a href="#"><strong>📰新闻栏目</strong></a>
+            <a href="#"><strong>☀️关于蓝旭</strong></a>
+            <a href="./表单.html"><strong>😆加入我们</strong></a>
+        </div>
+    </div>
+    <!-- 文字区域 -->
+  <div class="text">
+    <h2 style="width: 300px; height: 60px; font-size: 37px; font-weight:300;margin-top: 70px;">加入我们</h2>
+    <div style="font-weight: 250;  color:rgb(55 65 81);">零基础入门，学长学姐带你飞！蓝旭工作室招新进行中！</div>
+  </div>
+  <!-- 表单区域 -->
+   <form>
+        <div class="container1">
+            <label style="border-radius: 7px; width: 110px; height: 35px; box-shadow: 0 2px 4px #c7c6c6;background-color: #e5e7eb;display: flex; align-items: center;"><i class="fa-solid fa-image" style="margin-left:10px ;margin-right:7px;"></i><input type="file" style="display:none;font-weight: 200;">选择照片</label>
+            <span style="margin-left: 20px; height: 35px; line-height: 35px ;color: rgb(55 65 81);font-weight: 300;">请上传一张你的生活照~</span>
+        </div>
+        <div class="container">
+          <input type="text" placeholder="姓名">
+            <input type="text" placeholder="学号">
+            <select>
+                <option value="">专业</option>
+                <option value="">计算机类</option>
+                <option value="">计算机科学与技术（中美）</option>
+                <option value="">教育技术学（公费师范）</option>
+                <option value="">其他</option>
+
+                
+            </select>
+        </div>
+        <div class="container">
+            <select>
+                <option value="">性别</option>
+                <option value="">男</option>
+                <option value="">女</option>
+            </select>
+            <select>
+                <option>意向部门</option>
+                <option value="">前端</option>
+                <option value="">后端</option>
+            </select>
+        </div>
+        <div class="container">
+            <input type="text" placeholder="邮箱" style="height: 80%;">
+            <input type="text" placeholder="电话号码" style="height: 80%;"></input>
+            </input>
+        </div>
+        <div class="container3">
+            <textarea  placeholder="个人介绍（可以从个人技能、学业、兴趣爱好等方面介绍）"></textarea>
+        </div>
+     
+            <button>提交</button>
+       
+   </form>
+
+<!-- 页脚区域 -->
+ <div class="footer">
+    <div class="pc">
+        <img src="../图片/logo3.png" alt="" style="width: 45px;height: 45px; margin-left:30px;margin-top: 10px;">
+    </div>
+    <div class="name">
+        <div style="font-size: 23px; color: #f8f8f8; font-weight: 300; height: 35px; margin: 0 35px;">蓝旭工作室</div>
+        <div style="font-size: 15px; color: #f8f8f8;  margin: 0 35px; ">Bluemsun Studio</div>
+    </div>
+    <div class="git">
+        <a href="https://github.com/Bluemsun-Studio/Bluemsun-Studio.github.io">
+        <i class="fa-brands fa-github" style="font-size:22px; color: #c4c2c2;"></i>
+        </a>
+    </div>
+ </div>
+ <div class="footer2">
+    <span>© Hello! Bluemsun 2025 All Rights Reserved.</span>
+    <span>浙ICP备2024119634号</span>
+    <span><i class="fa fa-eye"></i>3192</span>
+ </div>
+</body>
+</html>
